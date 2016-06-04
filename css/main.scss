@@ -3,10 +3,98 @@
 ---
 @charset "utf-8";
 
+html,
+	body {
+		margin:0;
+		padding:0;
+		min-height:100%;
+	}
+	#container {
+		min-height:100%;
+		position:relative;
+	}
+	#header {
+
+		padding-top:0px;
+    padding-bottom: 0px;
+	}
+	#body {
+    min-height: 100%;
+		padding:10px;
+		padding-bottom:60px;	/* Height of the footer */
+	}
+	#footer {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:60px;			/* Height of the footer */
+
+	}
+.site-head-wrapper{
+  height: 100vh;
+}
+
+.site-head-wrapper-general{
+  padding-bottom: 3em;
+}
+.site-head-text{
+  padding-top: 14%;
+}
+.site-title{
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 120px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: lightgray;
+  letter-spacing: 0.5em;
+  text-indent: 0.5em;
+}
+
+.site-desc{
+  text-align: center;
+font-family: "Source Sans Pro";
+font-size: 20px;
+text-transform: uppercase;
+font-weight: 900;
+color: grey;
+letter-spacing: 0.5em;
+text-indent: 0.5em;
+}
 
 
+.post-box{
+padding: 3em;
+
+}
+
+.navbar{
+  border: none;
+  border-color: white !important;
+  background-color: white !important;
+  box-shadow:0 4px 3px 0 rgba(0,0,0,.15);
+
+}
+ .pg-title{
+  font-family: "Roboto";
+  font-weight: 100;
+
+
+}
+
+
+.navbar-brand{
+  font-weight: 100;
+font-size: 30px !important;
+text-transform: lowercase;
+}
+.pg-title{
+  text-transform: uppercase;
+  font-size: 20px;
+    letter-spacing: 0.1em;
+}
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Roboto", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -47,7 +135,6 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
+
         "syntax-highlighting"
 ;
