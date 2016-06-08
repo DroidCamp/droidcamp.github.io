@@ -55,7 +55,7 @@ body {
   text-indent: 0.5em; }
 
 .post-box {
-  padding: 3em; }
+  padding: 0.5em; }
 
 .navbar {
   border: none;
@@ -76,6 +76,59 @@ body {
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: 0.1em; }
+
+.blue-grey.darken-1 {
+  background-color: #546e7a !important; }
+
+.card .card-action {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 20px;
+  z-index: 2;
+  text-align: right;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.1em; }
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 4em; }
+
+.card .card-content {
+  padding: 20px;
+  border-radius: 0 0 2px 2px; }
+
+.white-text {
+  color: #fff !important; }
+
+.card {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px; }
+
+.z-depth-1, .card-panel, .card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.blue-grey {
+  background-color: #607d8b !important; }
+
+.card-title {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.1em; }
+
+p {
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 18px; }
 
 /**
  * Syntax highlighting styles
