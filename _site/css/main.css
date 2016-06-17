@@ -2,18 +2,13 @@ html,
 body {
   margin: 0;
   padding: 0;
-  min-height: 100%; }
+  height: 100%; }
 
 #container {
   min-height: 100%;
   position: relative; }
 
-#header {
-  padding-top: 0px;
-  padding-bottom: 0px; }
-
 #body {
-  min-height: 100%;
   padding: 10px;
   padding-bottom: 60px;
   /* Height of the footer */ }
@@ -24,6 +19,69 @@ body {
   width: 100%;
   height: 60px;
   /* Height of the footer */ }
+
+.post-title {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: grey;
+  letter-spacing: 0.5em;
+  text-indent: 0.5em; }
+
+.ptitle-index {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  padding-bottom: 0.1em; }
+
+.post-list-item {
+  padding: 0.5em; }
+
+.ptitle-index:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted midnightblue;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: midnightblue;
+  padding-bottom: 0.1em; }
+
+.ptitle-index {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: crimson;
+  padding-bottom: 0.1em; }
+
+.sec-title {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: grey;
+  letter-spacing: 0.5em;
+  text-indent: 0.5em; }
+
+.chap {
+  font-family: "Roboto";
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: grey; }
+
+.footer {
+  font-family: "Open Sans";
+  color: grey;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center; }
+
+.fa-heart {
+  color: crimson !important; }
 
 .site-head-wrapper {
   height: 100vh; }
@@ -44,10 +102,30 @@ body {
   letter-spacing: 0.5em;
   text-indent: 0.5em; }
 
+.site-title-general {
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: lightgray;
+  letter-spacing: 0.5em;
+  text-indent: 0.5em; }
+
 .site-desc {
   text-align: center;
   font-family: "Source Sans Pro";
   font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: grey;
+  letter-spacing: 0.5em;
+  text-indent: 0.5em; }
+
+.site-desc-general {
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 900;
   color: grey;
@@ -95,8 +173,7 @@ body {
 
 a {
   color: white;
-  text-decoration: none;
-  padding: 4em; }
+  text-decoration: none; }
 
 .card .card-content {
   padding: 20px;
