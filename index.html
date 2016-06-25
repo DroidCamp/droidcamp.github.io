@@ -69,12 +69,12 @@ layout: default
 
     <div class="col-md-6">
       <div class="sec-title ">
-      <span class="chap">CHAPTER 4 <br></span> ACTIVITIES &amp; LAYOUTS
+      <span class="chap">CHAPTER 4 <br></span> ACTIVITIES
       </div>
       <ul>
       {% for post in site.posts %}
       {%  for cat in post.categories  %}
-      {%  if cat == 'approach' %}
+      {%  if cat == 'activies' %}
       <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
       </li>
       {% endif %}
@@ -90,12 +90,28 @@ layout: default
   <div class="row">
     <div class="col-md-6">
       <div class="sec-title">
+      <span class="chap">CHAPTER 5 <br></span> LAYOUTS
+      </div>
+      <ul>
+      {% for post in site.posts %}
+      {%  for cat in post.categories  %}
+      {%  if cat == 'layouts' %}
+      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
+      </li>
+      {% endif %}
+      {% endfor %}
+      {%  endfor %}
+      </ul>
+
+    </div>
+    <div class="col-md-6">
+      <div class="sec-title">
       <span class="chap">CHAPTER 5 <br></span> APPROACHES TO ANDROID DEVELOPMENT
       </div>
       <ul>
       {% for post in site.posts %}
       {%  for cat in post.categories  %}
-      {%  if cat == 'layout' %}
+      {%  if cat == 'approaches' %}
       <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
       </li>
       {% endif %}
@@ -105,6 +121,13 @@ layout: default
 
     </div>
 
+  </div>
+
+
+  <!--ROW 4-->
+
+  <div class="row">
+
     <div class="col-md-6">
       <div class="sec-title ">
       <span class="chap">CHAPTER 6 <br></span> INTENTS
@@ -112,7 +135,7 @@ layout: default
       <ul>
       {% for post in site.posts %}
       {%  for cat in post.categories  %}
-      {%  if cat == 'setup' %}
+      {%  if cat == 'intent' %}
       <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
       </li>
       {% endif %}
@@ -122,4 +145,5 @@ layout: default
 
     </div>
   </div>
+
 </div>
