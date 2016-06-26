@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setup Java"
+title:  "Introduction to Java"
 date:   2016-06-12 22:01:43 +0530
-categories: setup
+categories: basic
 ---

@@ -26,7 +26,9 @@ body {
   font-size: 40px;
   text-transform: uppercase;
   font-weight: 900;
-  color: grey;
+  color: black;
+  line-height: 1.5;
+  padding-bottom: 20px;
   letter-spacing: 0.5em;
   text-indent: 0.5em; }
 
@@ -42,18 +44,17 @@ body {
 
 .ptitle-index:hover {
   text-decoration: none;
-  border-bottom: 1px dotted midnightblue;
+  border-bottom: 1px dotted;
   font-family: "Roboto";
-  font-weight: 400;
-  font-size: 18px;
-  color: midnightblue;
+  font-weight: 700;
+  font-size: 16px;
   padding-bottom: 0.1em; }
 
 .ptitle-index {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
-  color: crimson;
+  color: black;
   padding-bottom: 0.1em; }
 
 .sec-title {
@@ -74,7 +75,7 @@ body {
   color: grey; }
 
 .footer {
-  font-family: "Open Sans";
+  font-family: "Roboto";
   color: grey;
   text-transform: uppercase;
   font-weight: 800;
@@ -203,9 +204,34 @@ a {
   letter-spacing: 0.1em; }
 
 p {
-  font-family: "Roboto";
+  font-family: "Droid Sans";
   font-weight: 200;
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 2; }
+
+.footer-text {
+  font-family: "Roboto" !important; }
+
+.post-content {
+  padding-left: 12%;
+  padding-right: 12%;
+  text-align: justify; }
+
+pre {
+  border: none !important;
+  border-radius: 0px !important;
+  font-size: 16px !important;
+  padding: 1.5em !important;
+  line-height: 2.0 !important;
+  font-family: Menlo; }
+
+h2 {
+  font-family: "Droid Sans" !important;
+  font-weight: 700 !important; }
+
+code {
+  border: none !important;
+  border-radius: 0px !important; }
 
 /**
  * Syntax highlighting styles

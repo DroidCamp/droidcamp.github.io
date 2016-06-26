@@ -2,7 +2,15 @@
 layout: default
 ---
 
-
+<!-- LIST OF CATEGORIES
+basic
+setup
+command
+activities
+layouts
+approaches
+intent
+-->
 <div class="container">
 
 
@@ -15,10 +23,10 @@ layout: default
       <span class="chap">CHAPTER 1 <br></span>BASICS
       </div>
       <ul>
-      {% for post in site.posts %}
+      {% for post in site.posts reversed%}
       {%  for cat in post.categories  %}
       {%  if cat == 'basic' %}
-      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
+      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a>
       </li>
       {% endif %}
       {% endfor %}
@@ -32,10 +40,10 @@ layout: default
       <span class="chap">CHAPTER 2 <br></span>SETTING UP
       </div>
       <ul>
-      {% for post in site.posts %}
+      {% for post in site.posts reversed %}
       {%  for cat in post.categories  %}
       {%  if cat == 'setup' %}
-      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
+      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a>
       </li>
       {% endif %}
       {% endfor %}
@@ -58,7 +66,7 @@ layout: default
       {% for post in site.posts %}
       {%  for cat in post.categories  %}
       {%  if cat == 'command' %}
-      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
+      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a>
       </li>
       {% endif %}
       {% endfor %}
@@ -75,7 +83,7 @@ layout: default
       {% for post in site.posts %}
       {%  for cat in post.categories  %}
       {%  if cat == 'activies' %}
-      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
+      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a>
       </li>
       {% endif %}
       {% endfor %}
@@ -96,7 +104,7 @@ layout: default
       {% for post in site.posts %}
       {%  for cat in post.categories  %}
       {%  if cat == 'layouts' %}
-      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
+      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a>
       </li>
       {% endif %}
       {% endfor %}
@@ -112,7 +120,7 @@ layout: default
       {% for post in site.posts %}
       {%  for cat in post.categories  %}
       {%  if cat == 'approaches' %}
-      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
+      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a>
       </li>
       {% endif %}
       {% endfor %}
@@ -136,7 +144,7 @@ layout: default
       {% for post in site.posts %}
       {%  for cat in post.categories  %}
       {%  if cat == 'intent' %}
-      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a> - {{ post.date | date: '%B %d, %Y' }}
+      <li class="post-list-item"><a class="ptitle-index" href="{{post.url}}">{{post.title}}</a>
       </li>
       {% endif %}
       {% endfor %}
