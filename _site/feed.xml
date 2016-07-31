@@ -3,10 +3,10 @@
   <channel>
     <title>DROIDCAMP</title>
     <description>The stick figure way to learn android</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Jul 2016 15:52:33 +0530</pubDate>
-    <lastBuildDate>Fri, 15 Jul 2016 15:52:33 +0530</lastBuildDate>
+    <link>http://droidcamp.github.io/</link>
+    <atom:link href="http://droidcamp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Aug 2016 00:40:23 +0530</pubDate>
+    <lastBuildDate>Mon, 01 Aug 2016 00:40:23 +0530</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Sun, 12 Jun 2016 22:01:43 +0530</pubDate>
-        <link>http://yourdomain.com/setup/2016/06/12/setup-2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/setup/2016/06/12/setup-2.html</guid>
+        <link>http://droidcamp.github.io/setup/2016/06/12/setup-2.html</link>
+        <guid isPermaLink="true">http://droidcamp.github.io/setup/2016/06/12/setup-2.html</guid>
         
         
         <category>setup</category>
@@ -27,8 +27,8 @@
         <description>
 </description>
         <pubDate>Sun, 12 Jun 2016 22:01:43 +0530</pubDate>
-        <link>http://yourdomain.com/setup/2016/06/12/setup-1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/setup/2016/06/12/setup-1.html</guid>
+        <link>http://droidcamp.github.io/setup/2016/06/12/setup-1.html</link>
+        <guid isPermaLink="true">http://droidcamp.github.io/setup/2016/06/12/setup-1.html</guid>
         
         
         <category>setup</category>
@@ -37,11 +37,13 @@
     
       <item>
         <title>Introduction to Android Architecture</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/basic-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;center&gt;
+&lt;img src=&quot;http://droidcamp.github.io/images/basic-1.png&quot; /&gt;
+&lt;/center&gt;
 </description>
         <pubDate>Sun, 12 Jun 2016 22:01:43 +0530</pubDate>
-        <link>http://yourdomain.com/basic/2016/06/12/basic-1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/basic/2016/06/12/basic-1.html</guid>
+        <link>http://droidcamp.github.io/basic/2016/06/12/basic-1.html</link>
+        <guid isPermaLink="true">http://droidcamp.github.io/basic/2016/06/12/basic-1.html</guid>
         
         
         <category>basic</category>
@@ -53,8 +55,8 @@
         <description>
 </description>
         <pubDate>Thu, 12 May 2016 22:01:43 +0530</pubDate>
-        <link>http://yourdomain.com/layouts/2016/05/12/layouts-3.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/layouts/2016/05/12/layouts-3.html</guid>
+        <link>http://droidcamp.github.io/layouts/2016/05/12/layouts-3.html</link>
+        <guid isPermaLink="true">http://droidcamp.github.io/layouts/2016/05/12/layouts-3.html</guid>
         
         
         <category>layouts</category>
@@ -66,8 +68,8 @@
         <description>
 </description>
         <pubDate>Thu, 12 May 2016 22:01:43 +0530</pubDate>
-        <link>http://yourdomain.com/layouts/2016/05/12/layouts-2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/layouts/2016/05/12/layouts-2.html</guid>
+        <link>http://droidcamp.github.io/layouts/2016/05/12/layouts-2.html</link>
+        <guid isPermaLink="true">http://droidcamp.github.io/layouts/2016/05/12/layouts-2.html</guid>
         
         
         <category>layouts</category>
@@ -79,8 +81,8 @@
         <description>
 </description>
         <pubDate>Thu, 12 May 2016 22:01:43 +0530</pubDate>
-        <link>http://yourdomain.com/layouts/2016/05/12/layouts-1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/layouts/2016/05/12/layouts-1.html</guid>
+        <link>http://droidcamp.github.io/layouts/2016/05/12/layouts-1.html</link>
+        <guid isPermaLink="true">http://droidcamp.github.io/layouts/2016/05/12/layouts-1.html</guid>
         
         
         <category>layouts</category>
@@ -92,8 +94,8 @@
         <description>
 </description>
         <pubDate>Thu, 12 May 2016 22:01:43 +0530</pubDate>
-        <link>http://yourdomain.com/approaches/2016/05/12/approaches-1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/approaches/2016/05/12/approaches-1.html</guid>
+        <link>http://droidcamp.github.io/approaches/2016/05/12/approaches-1.html</link>
+        <guid isPermaLink="true">http://droidcamp.github.io/approaches/2016/05/12/approaches-1.html</guid>
         
         
         <category>approaches</category>
